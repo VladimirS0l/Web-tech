@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Fira Code';
+    src: url("Fira_Code_v6.2/woff2/FiraCode-Light.woff2") format('woff2'),
+      url("Fira_Code_v6.2/woff/FiraCode-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+  }
+@font-face {
+	font-family: 'NeueMachina-Ultrabold';
+	src: url('../fonts/neuemachina-ultrabold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/neuemachina-ultrabold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/neuemachina-ultrabold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/neuemachina-ultrabold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/neuemachina-ultrabold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/neuemachina-ultrabold.svg#neuemachina-ultrabold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+html {
+    background-color: rgb(249, 250, 250);
+    font-family: 'Fira Code';
+    margin: 0 200px 0 275px;
+}
+p {
+    color: #002318;
+    margin: 0 125px 0 0;
+    font-family: 'NeueMachina-Ultrabold';
+    font-size: 18px;
+}
+hr {
+    margin: 5px 125px 20px 0;
+}
+h1 {
+    color: #013d29;
+    margin: 50 50 50 50;
+}
+h2 {
+    color: rgb(2, 80, 59);
+}
+h3 {
+    color: rgb(27, 67, 67);
+}
+a {
+    color: rgb(112, 0, 240);
+    font-family: 'NeueMachina-Ultrabold';
+}
+#headthree {
+    color: rgb(0, 50, 34);
+}

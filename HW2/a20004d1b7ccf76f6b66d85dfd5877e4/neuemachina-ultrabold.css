@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'NeueMachina-Ultrabold';
+	src: url('../fonts/neuemachina-ultrabold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/neuemachina-ultrabold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/neuemachina-ultrabold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/neuemachina-ultrabold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/neuemachina-ultrabold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/neuemachina-ultrabold.svg#neuemachina-ultrabold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
